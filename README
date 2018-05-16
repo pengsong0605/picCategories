@@ -1,0 +1,27 @@
+1.依赖库
+
+mahotas==1.4.4
+
+matplotlib==2.2.2
+
+numpy==1.14.3+mkl
+
+scikit-image==0.13.1
+
+scikit-learn==0.19.1
+
+numpy==1.1.0
+
+tornado==5.0.2
+
+wxPython==4.0.1
+
+其中scikit-learn,numpy,scipy是 http://www.lfd.uci.edu/~gohlke/pythonlibs/ 这里下载的
+
+2.spec用于Pyinstaller生成exe
+
+3.cifar-10,cifar-100,stl-10图片集网络可以下载，homemade自做图片集，主目录下是各类标签文件夹，文件夹中放着训练和测试数据，82比例，标签在config.py
+
+4.自己修改配置文件，在config文件目录
+
+
